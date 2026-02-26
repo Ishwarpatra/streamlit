@@ -1,0 +1,4 @@
+# System-level packages for Streamlit Cloud
+# Required for OpenCV
+libgl1-mesa-glx
+libglib2.0-0

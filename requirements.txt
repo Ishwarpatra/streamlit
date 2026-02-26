@@ -1,0 +1,16 @@
+# Core dependencies
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Note: torch and torchvision will be CPU versions on Streamlit Cloud
+# If deployment fails due to size, use these lighter alternatives:
+# torch==2.0.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+# torchvision==0.15.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
